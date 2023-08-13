@@ -8,6 +8,8 @@
 </head>
 <body>
 
+    <!-- inserting user data to database -->
+
     <h3>Create Account</h3> 
 
     <form action="includes/formhandler.inc.php" method="post">
@@ -18,6 +20,8 @@
         </form>
         
 
+    <!-- changing user data -->
+
     <h3>Change Account</h3>
 
     <form action="includes/userupdate.inc.php" method="post">
@@ -26,6 +30,8 @@
         <input type="text" name="email" placeholder="Email">
         <button>Update</button>
     </form>
+
+    <!-- deleting user data -->
 
     <h3>Delete Account</h3>
 
