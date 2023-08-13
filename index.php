@@ -41,5 +41,14 @@
         <button>Delete</button>
     </form>
 
+    <h3>Search Data </h3>
+
+    <form class="searchform" action="search.php" method="post">
+    <label for="search">Search for User:</label>
+    <input id="search" type="text" name="usersearch" placeholder="Search...">
+    <button>Search  </button>
+
+    </form>
+
 </body>
 </html>
